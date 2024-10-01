@@ -24,6 +24,13 @@
             label = "VIMSAVE";
         };
 
+        macro2: macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(I) &kp L &kp K &kp C &kp W &kp N0 &kp N1 &kp N0 &kp N8>;
+            label = "MACRO2";
+        };
+
         #endif
 
         hm: homerow_mods {
